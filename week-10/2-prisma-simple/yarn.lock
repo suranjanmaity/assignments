@@ -697,6 +697,17 @@
   dependencies:
     "@types/yargs-parser" "*"
 
+"2-prisma-simple@file:":
+  version "1.0.0"
+  resolved "file:"
+  dependencies:
+    "@prisma/client" "5.9.1"
+    "@types/jest" "^29.5.12"
+    "@types/pg" "^8.11.0"
+    "2-prisma-simple" "file:"
+    pg "^8.11.3"
+    typescript "^5.3.3"
+
 ansi-escapes@^4.2.1:
   version "4.3.2"
   resolved "https://registry.npmjs.org/ansi-escapes/-/ansi-escapes-4.3.2.tgz"

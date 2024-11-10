@@ -656,6 +656,16 @@
   dependencies:
     "@types/yargs-parser" "*"
 
+"1-postgres-simple@file:":
+  version "1.0.0"
+  resolved "file:"
+  dependencies:
+    "@types/jest" "^29.5.12"
+    "@types/pg" "^8.11.0"
+    "1-postgres-simple" "file:"
+    pg "^8.11.3"
+    typescript "^5.3.3"
+
 ansi-escapes@^4.2.1:
   version "4.3.2"
   resolved "https://registry.npmjs.org/ansi-escapes/-/ansi-escapes-4.3.2.tgz"
